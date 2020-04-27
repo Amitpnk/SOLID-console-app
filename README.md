@@ -5,7 +5,7 @@ SOLID are five basic principles which helps to create good software architecture
 SOLID is an acronym.
 
 * S - [SRP (Single responsiblity principle)](#single-responsibility-principle)
-* O - OCP (Open closed principle)
+* O - [OCP (Open closed principle)](#open-closed-principle)
 * L - [LSP (Liskov substitution principle)](#liskov-substitution-principle)
 * I - [ISP (Interface segragation principle)](#interface-segragation-principle)
 * D - [DIP (Dependency inversion principle)](#dependency-inversion-principle)
