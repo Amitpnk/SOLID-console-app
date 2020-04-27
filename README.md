@@ -4,11 +4,11 @@
 SOLID are five basic principles which helps to create good software architecture. 
 SOLID is an acronym.
 
-* S - SRP (Single responsiblity principle)
+* S - [SRP (Single responsiblity principle)](#single-responsibility-principle)
 * O - OCP (Open closed principle)
-* L - LSP (Liskov substitution principle)
-* I - ISP (Interface segragation principle)
-* D - DIP (Dependency inversion principle)
+* L - [LSP (Liskov substitution principle)](#liskov-substitution-principle)
+* I - [ISP (Interface segragation principle)](#interface-segragation-principle)
+* D - [DIP (Dependency inversion principle)](#dependency-inversion-principle)
 
 ## Single Responsibility Principle
 
@@ -62,7 +62,8 @@ public class FileLogger
     {
         File.WriteAllText(@"C:\Error.txt", error);
     }
-}```
+}
+```
 
 ## Open closed principle
 
