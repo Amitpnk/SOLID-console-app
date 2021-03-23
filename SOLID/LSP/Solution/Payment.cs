@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LSP.Solution
 {
     interface IPaymentTransaction
     {
-          void ProcessTransaction();
+        void ProcessTransaction();
 
     }
 
@@ -30,7 +26,7 @@ namespace LSP.Solution
             Console.WriteLine("DeductAmount Method Called");
         }
 
-        public   void ProcessTransaction()
+        public void ProcessTransaction()
         {
             Console.WriteLine("ProcessTransaction Method Called");
         }
@@ -38,7 +34,7 @@ namespace LSP.Solution
 
     class COD : IPaymentTransaction
     {
-        public   void ProcessTransaction()
+        public void ProcessTransaction()
         {
             Console.WriteLine("ProcessTransaction Method Called");
         }
